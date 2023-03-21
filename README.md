@@ -22,22 +22,24 @@ This will start both the `homepage` and `portal` apps on separate ports. You can
 
 The repository is organized as follows:
 
-nextjs-module-federation/
-├── homepage/
-│ ├── pages/
-│ │ ├── boring-page.tsx
-│ │ └── index.tsx
-│ ├── public/
-│ └── ...
-├── portal/
-│ ├── components/
-│ │ └── BoringButton.tsx
-│ ├── pages/
-│ │ ├── boring-page.tsx
-│ │ └── index.tsx
-│ ├── public/
-│ └── ...
-└── README.md
+```
+- nextjs-module-federation/
+  - homepage/
+    | + pages/
+    | | - boring-page.tsx
+    | | - index.tsx
+    | + public/
+    | + ...
+  - portal/
+    | + components/
+    | | - BoringButton.tsx
+    | + pages/
+    | | - boring-page.tsx
+    | | - index.tsx
+    | + public/
+    | + ...
+  - README.md
+```
 
 - `homepage/` contains the source code for the mock homepage app.
 - `portal/` contains the source code for the mock portal app.
